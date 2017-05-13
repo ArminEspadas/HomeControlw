@@ -1,0 +1,24 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_exterior"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.pch61m.homecontrol.FragmentExterior">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView"
+            android:textSize="25dp"
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Exterior" />
+
+
+    </LinearLayout>
+
+
+</FrameLayout>

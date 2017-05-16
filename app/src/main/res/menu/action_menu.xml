@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_item_paired"
+        android:icon="@drawable/ic_action_tap_and_play"
+        android:title="Paired"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/menu_item_discover"
+        android:icon="@drawable/ic_action_search"
+        android:title="Discover"
+        app:showAsAction="ifRoom|withText"/>
+
+    <item
+        android:id="@+id/menu_item_disconnect"
+        android:icon="@drawable/ic_action_bluetooth_disabled"
+        android:title="Disconnect"
+        app:showAsAction="ifRoom|withText"/>
+
+
+
+
+</menu>
